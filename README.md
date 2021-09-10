@@ -2,7 +2,8 @@
 Clustering 
 
 ## Installation
-install requirements in your virtual env  
+install requirements in your virtual env 
+`py -m pip install -r ../requirements.txt`
 
 ## Quick Start:
 0. activate venv
@@ -18,4 +19,4 @@ install requirements in your virtual env
 - plot can only be 2d or 3d
 - since initial centroids are chosen at random, result may be different in different runs
 
-## TODO:
+
