@@ -2,8 +2,9 @@
 Clustering 
 
 ## Installation
-install requirements in your virtual env 
-`py -m pip install -r ../requirements.txt`
+install requirements in your virtual env:
+
+`py -m pip install -r requirements.txt`
 
 ## Quick Start:
 0. activate venv
