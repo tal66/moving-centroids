@@ -1,6 +1,6 @@
 import logging
 import matplotlib.pyplot as plt
-from mpl_toolkits import mplot3d # do not delete this line, even if IDE mistakes it as unused
+from mpl_toolkits import mplot3d
 
 COLORS = ['#5DEACE', 'purple',  'gold', 'navy', 'pink', 'c', '#CA7272', 'b', '#AE9DC2', 'grey']
 # max k = len(COLORS)
@@ -11,6 +11,7 @@ def show_scatter_plot(dim, centroids):
         _add_points_to_plot(centroids, plt)
     else:
         _plot_cluster_3d(centroids)
+    plt.savefig('src/output/plot.png')
     plt.show()
 
 def _add_points_to_plot(centroids, scatter_plot):
@@ -31,5 +32,3 @@ def _plot_cluster_3d(centroids):
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
-
-
